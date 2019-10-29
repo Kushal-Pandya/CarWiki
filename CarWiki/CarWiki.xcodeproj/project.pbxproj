@@ -26,6 +26,15 @@
 		9B1750CD233B18EB0030CBF1 /* CarModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B1750CC233B18EB0030CBF1 /* CarModel.swift */; };
 		9B1750D0233C43070030CBF1 /* HondaAccord9thGeneration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B1750CF233C43070030CBF1 /* HondaAccord9thGeneration.swift */; };
 		9B1750D2233C432F0030CBF1 /* HondaAccord7thGeneration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B1750D1233C432F0030CBF1 /* HondaAccord7thGeneration.swift */; };
+		9B9178E12367BFEF00303D47 /* FordFSeries11thGeneration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B9178E02367BFEF00303D47 /* FordFSeries11thGeneration.swift */; };
+		9B9178E32367C2D200303D47 /* FordFSeries12thGeneration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B9178E22367C2D200303D47 /* FordFSeries12thGeneration.swift */; };
+		9B9178E52367C48A00303D47 /* FordFSeries13thGeneration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B9178E42367C48A00303D47 /* FordFSeries13thGeneration.swift */; };
+		9B9178E82367C7FB00303D47 /* ChevroletSilverado1stGeneration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B9178E72367C7FB00303D47 /* ChevroletSilverado1stGeneration.swift */; };
+		9B9178EA2367CA0B00303D47 /* ChevroletSilverado2ndGeneration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B9178E92367CA0B00303D47 /* ChevroletSilverado2ndGeneration.swift */; };
+		9B9178EC2367CCA000303D47 /* ChevroletSilverado3rdGeneration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B9178EB2367CCA000303D47 /* ChevroletSilverado3rdGeneration.swift */; };
+		9B9178EF2367D16D00303D47 /* DodgeRam2ndGeneration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B9178EE2367D16D00303D47 /* DodgeRam2ndGeneration.swift */; };
+		9B9178F12367D24B00303D47 /* DodgeRam3rdGeneration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B9178F02367D24B00303D47 /* DodgeRam3rdGeneration.swift */; };
+		9B9178F32367D46000303D47 /* DodgeRam4thGeneration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B9178F22367D46000303D47 /* DodgeRam4thGeneration.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -71,6 +80,15 @@
 		9B1750CC233B18EB0030CBF1 /* CarModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarModel.swift; sourceTree = "<group>"; };
 		9B1750CF233C43070030CBF1 /* HondaAccord9thGeneration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HondaAccord9thGeneration.swift; sourceTree = "<group>"; };
 		9B1750D1233C432F0030CBF1 /* HondaAccord7thGeneration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HondaAccord7thGeneration.swift; sourceTree = "<group>"; };
+		9B9178E02367BFEF00303D47 /* FordFSeries11thGeneration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FordFSeries11thGeneration.swift; sourceTree = "<group>"; };
+		9B9178E22367C2D200303D47 /* FordFSeries12thGeneration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FordFSeries12thGeneration.swift; sourceTree = "<group>"; };
+		9B9178E42367C48A00303D47 /* FordFSeries13thGeneration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FordFSeries13thGeneration.swift; sourceTree = "<group>"; };
+		9B9178E72367C7FB00303D47 /* ChevroletSilverado1stGeneration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChevroletSilverado1stGeneration.swift; sourceTree = "<group>"; };
+		9B9178E92367CA0B00303D47 /* ChevroletSilverado2ndGeneration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChevroletSilverado2ndGeneration.swift; sourceTree = "<group>"; };
+		9B9178EB2367CCA000303D47 /* ChevroletSilverado3rdGeneration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChevroletSilverado3rdGeneration.swift; sourceTree = "<group>"; };
+		9B9178EE2367D16D00303D47 /* DodgeRam2ndGeneration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DodgeRam2ndGeneration.swift; sourceTree = "<group>"; };
+		9B9178F02367D24B00303D47 /* DodgeRam3rdGeneration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DodgeRam3rdGeneration.swift; sourceTree = "<group>"; };
+		9B9178F22367D46000303D47 /* DodgeRam4thGeneration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DodgeRam4thGeneration.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -201,6 +219,9 @@
 		9B1750CB233B0BAF0030CBF1 /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				9B9178ED2367D12B00303D47 /* DodgeRam */,
+				9B9178E62367C78D00303D47 /* ChevroletSilverado */,
+				9B9178DF2367BF7500303D47 /* FordFSeries */,
 				9B1750CE233C42E40030CBF1 /* HondaAccord */,
 				9B1750CC233B18EB0030CBF1 /* CarModel.swift */,
 			);
@@ -215,6 +236,36 @@
 				9B1750CF233C43070030CBF1 /* HondaAccord9thGeneration.swift */,
 			);
 			path = HondaAccord;
+			sourceTree = "<group>";
+		};
+		9B9178DF2367BF7500303D47 /* FordFSeries */ = {
+			isa = PBXGroup;
+			children = (
+				9B9178E02367BFEF00303D47 /* FordFSeries11thGeneration.swift */,
+				9B9178E22367C2D200303D47 /* FordFSeries12thGeneration.swift */,
+				9B9178E42367C48A00303D47 /* FordFSeries13thGeneration.swift */,
+			);
+			path = FordFSeries;
+			sourceTree = "<group>";
+		};
+		9B9178E62367C78D00303D47 /* ChevroletSilverado */ = {
+			isa = PBXGroup;
+			children = (
+				9B9178E72367C7FB00303D47 /* ChevroletSilverado1stGeneration.swift */,
+				9B9178E92367CA0B00303D47 /* ChevroletSilverado2ndGeneration.swift */,
+				9B9178EB2367CCA000303D47 /* ChevroletSilverado3rdGeneration.swift */,
+			);
+			path = ChevroletSilverado;
+			sourceTree = "<group>";
+		};
+		9B9178ED2367D12B00303D47 /* DodgeRam */ = {
+			isa = PBXGroup;
+			children = (
+				9B9178EE2367D16D00303D47 /* DodgeRam2ndGeneration.swift */,
+				9B9178F02367D24B00303D47 /* DodgeRam3rdGeneration.swift */,
+				9B9178F22367D46000303D47 /* DodgeRam4thGeneration.swift */,
+			);
+			path = DodgeRam;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -348,18 +399,27 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9B9178E52367C48A00303D47 /* FordFSeries13thGeneration.swift in Sources */,
 				9B1750C8233B05A50030CBF1 /* DetailTableViewCell.swift in Sources */,
+				9B9178E32367C2D200303D47 /* FordFSeries12thGeneration.swift in Sources */,
 				9B1750CA233B0B9E0030CBF1 /* HondaAccord8thGeneration.swift in Sources */,
 				9B0C8542232DB55B00DF7F67 /* HomeViewController.swift in Sources */,
+				9B9178EF2367D16D00303D47 /* DodgeRam2ndGeneration.swift in Sources */,
 				9B1750D2233C432F0030CBF1 /* HondaAccord7thGeneration.swift in Sources */,
+				9B9178EC2367CCA000303D47 /* ChevroletSilverado3rdGeneration.swift in Sources */,
 				9B1750C6233AF0810030CBF1 /* GenerationTableViewController.swift in Sources */,
 				9B0C85772331CEFD00DF7F67 /* ModelTableViewController.swift in Sources */,
+				9B9178EA2367CA0B00303D47 /* ChevroletSilverado2ndGeneration.swift in Sources */,
 				9B15EB5E23592E2B0099AC85 /* ComingSoonViewController.swift in Sources */,
+				9B9178F12367D24B00303D47 /* DodgeRam3rdGeneration.swift in Sources */,
 				9B1750CD233B18EB0030CBF1 /* CarModel.swift in Sources */,
+				9B9178F32367D46000303D47 /* DodgeRam4thGeneration.swift in Sources */,
 				9B0C8571233192AC00DF7F67 /* MakeTableViewController.swift in Sources */,
 				9B0C857323319B1D00DF7F67 /* MakeTableViewCell.swift in Sources */,
 				9B1750D0233C43070030CBF1 /* HondaAccord9thGeneration.swift in Sources */,
+				9B9178E12367BFEF00303D47 /* FordFSeries11thGeneration.swift in Sources */,
 				9B0C8548232DB55B00DF7F67 /* CarWiki.xcdatamodeld in Sources */,
+				9B9178E82367C7FB00303D47 /* ChevroletSilverado1stGeneration.swift in Sources */,
 				9B0C8540232DB55B00DF7F67 /* AppDelegate.swift in Sources */,
 				9B0C85752331BB6D00DF7F67 /* DetailsTableViewController.swift in Sources */,
 			);

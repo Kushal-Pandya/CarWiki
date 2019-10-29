@@ -10,9 +10,12 @@ import UIKit
 
 class MakeTableViewController: UITableViewController {
     
-    var makes: [String] = ["Honda", "Toyota", "Ford", "Nissan", "Chevrolet"]
+    var makes: [String] = ["Honda", "Toyota", "Ford", "Nissan", "Chevrolet", "Dodge"]
     let models: [String: [String]] = [
-        "Honda": ["Accord", "Civic", "CR-V", "Odyssey", "Pilot"]
+        "Honda": ["Accord", "Civic", "CR-V", "Odyssey", "Pilot"],
+        "Ford": ["F Series"],
+        "Chevrolet": ["Silverado"],
+        "Dodge": ["Ram"]
     ]
 
     override func viewDidLoad() {

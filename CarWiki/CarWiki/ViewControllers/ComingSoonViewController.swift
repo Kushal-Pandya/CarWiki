@@ -19,5 +19,4 @@ class ComingSoonViewController: UIViewController {
         comingSoonLabel.text = "The team is currently hard at work to bring you information about this car!"
         comingSoonLabel.numberOfLines = 0
     }
-
-}
+}   

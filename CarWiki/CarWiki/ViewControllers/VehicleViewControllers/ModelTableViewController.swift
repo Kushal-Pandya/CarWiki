@@ -15,7 +15,10 @@ class ModelTableViewController: UITableViewController {
     
     // Generations
     let generations: [String: [String: String]] = [
-        "Accord": ["7th Generation": "2003-2007", "8th Generation": "2008-2012", "9th Generation": "2013-2017"]
+        "Accord": ["7th Generation": "2003-2007", "8th Generation": "2008-2012", "9th Generation": "2013-2017"],
+        "F Series": ["11th Generation": "2004-2008", "12th Generation": "2009-2014", "13th Generation": "2015-Present"],
+        "Silverado": ["1st Generation": "1999-2006", "2nd Generation": "2007-2014", "3rd Generation": "2015-2018"],
+        "Ram": ["2nd Generation": "1994-2001", "3rd Generation": "2002-2008", "4th Generation": "2009-Present"]
     ]
 
     override func viewDidLoad() {

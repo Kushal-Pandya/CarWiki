@@ -22,26 +22,12 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vv0-Lr-srb">
-                                <rect key="frame" x="63" y="812" width="288" height="50"/>
-                                <color key="backgroundColor" red="1" green="0.34199154376983643" blue="0.3411764705882353" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="50" id="Tt8-u1-cvy"/>
-                                </constraints>
-                                <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                <state key="normal" title="Ready to Buy a Used Car?"/>
-                                <userDefinedRuntimeAttributes>
-                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
-                                        <integer key="value" value="25"/>
-                                    </userDefinedRuntimeAttribute>
-                                </userDefinedRuntimeAttributes>
-                            </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7xm-Sr-cuH">
                                 <rect key="frame" x="63" y="450" width="288" height="50"/>
                                 <color key="backgroundColor" red="1" green="0.3411764705882353" blue="0.3411764705882353" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="50" id="11F-Lr-AFQ"/>
-                                    <constraint firstAttribute="width" priority="750" constant="288" id="U0P-8Y-PtJ"/>
+                                    <constraint firstAttribute="width" priority="748" constant="288" id="U0P-8Y-PtJ"/>
                                 </constraints>
                                 <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <state key="normal" title="Start →"/>
@@ -60,14 +46,29 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vv0-Lr-srb">
+                                <rect key="frame" x="63" y="802" width="288" height="50"/>
+                                <color key="backgroundColor" red="1" green="0.3411764706" blue="0.3411764706" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" priority="749" constant="288" id="O3d-Jr-hmx"/>
+                                    <constraint firstAttribute="height" constant="50" id="Tt8-u1-cvy"/>
+                                </constraints>
+                                <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <state key="normal" title="Ready to Buy a Used Car?"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                        <integer key="value" value="25"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </button>
                         </subviews>
-                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <constraints>
                             <constraint firstItem="Hc5-KC-FqH" firstAttribute="top" secondItem="RjY-0v-cRa" secondAttribute="bottom" constant="56" id="4cR-6K-GxF"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" relation="lessThanOrEqual" secondItem="vv0-Lr-srb" secondAttribute="trailing" constant="63" id="Q1I-nm-Fz8"/>
                             <constraint firstItem="7xm-Sr-cuH" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="Q6z-W9-Rqw"/>
-                            <constraint firstItem="vv0-Lr-srb" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="63" id="RY0-Ue-qsb"/>
-                            <constraint firstItem="vv0-Lr-srb" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="Xs6-UH-4Mv"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="vv0-Lr-srb" secondAttribute="bottom" constant="10" id="Xyl-zT-iWh"/>
+                            <constraint firstItem="vv0-Lr-srb" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="e6l-X2-jld"/>
                             <constraint firstItem="7xm-Sr-cuH" firstAttribute="top" secondItem="Hc5-KC-FqH" secondAttribute="bottom" constant="8" id="qT2-88-Gw4"/>
                             <constraint firstItem="Hc5-KC-FqH" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="sxP-aO-HSU"/>
                             <constraint firstItem="RjY-0v-cRa" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="uff-2p-z0K"/>
@@ -244,7 +245,7 @@
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Title Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="w0W-rl-XWB">
-                                            <rect key="frame" x="12" y="11" width="346" height="21"/>
+                                            <rect key="frame" x="12" y="11" width="356" height="21"/>
                                             <fontDescription key="fontDescription" style="UICTFontTextStyleHeadline"/>
                                             <nil key="textColor"/>
                                             <nil key="highlightedColor"/>
@@ -272,7 +273,7 @@
                                         <constraint firstAttribute="bottom" secondItem="qzH-e3-H92" secondAttribute="bottom" constant="9" id="V7S-80-jdf"/>
                                         <constraint firstItem="qzH-e3-H92" firstAttribute="top" secondItem="brr-ru-qdc" secondAttribute="bottom" constant="3.5" id="npe-os-UVY"/>
                                         <constraint firstItem="qzH-e3-H92" firstAttribute="leading" secondItem="4wc-Cf-HqZ" secondAttribute="leading" constant="12" id="tHS-U0-ozr"/>
-                                        <constraint firstItem="brr-ru-qdc" firstAttribute="leading" secondItem="w0W-rl-XWB" secondAttribute="trailing" constant="15" id="uaG-BO-bH8"/>
+                                        <constraint firstItem="brr-ru-qdc" firstAttribute="leading" secondItem="w0W-rl-XWB" secondAttribute="trailing" constant="5" id="uaG-BO-bH8"/>
                                     </constraints>
                                 </tableViewCellContentView>
                                 <connections>
